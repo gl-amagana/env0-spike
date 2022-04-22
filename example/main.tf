@@ -13,6 +13,7 @@ resource "aws_s3_bucket_versioning" "some_bucket_versioning" {
   versioning_configuration {
     status = "Enabled"
   }
+}
 
 resource "aws_iam_role" "test_role" {
   name = "test_role"
